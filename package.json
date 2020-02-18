@@ -1,7 +1,7 @@
 {
   "name": "connect_dot",
   "version": "1.0.0",
-  "description": "The life is connecting a bunch of dots to make sense of something, figure something out. Just give it a try.",
+  "description": "The life is connecting a bunch of dots to make sense of something, figure something out. You must do it continusly until you suceed.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -21,8 +21,8 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
-    "concurrently": "^4.0.1",
-    "dotenv": "^6.1.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "express-mongoose-generator": "^3.0.3",
     "helmet": "^3.15.0",
@@ -31,14 +31,14 @@
     "mongoose": "^5.3.10",
     "morgan": "^1.9.1",
     "multer": "^1.4.1",
-    "mysql2": "^1.6.4",
+    "mysql2": "^2.1.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "pm2": "^3.2.2",
-    "sequelize": "^4.41.1",
-    "validator": "^10.9.0"
+    "pm2": "^4.2.3",
+    "sequelize": "^5.21.4",
+    "validator": "^12.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6"
+    "nodemon": "^2.0.2"
   }
 }
